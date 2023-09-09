@@ -22,3 +22,6 @@ img{
 .milli{
     display: flex;
 }
+a{
+    text-decoration: none;
+}
