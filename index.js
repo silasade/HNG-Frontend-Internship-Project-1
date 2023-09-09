@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    let Day = document.getElementById("day");
-    let Time = document.getElementById("time");
+    
 
     function updateTime() {
+        let Day = document.getElementById("day");
+        let Time = document.getElementById("time");
         const d = new Date();
         let day = days[d.getDay()];
         let time = d.getTime();
