@@ -1,0 +1,24 @@
+body{
+    background-color: rgba(26, 188, 156, 0.9);
+    color: white;
+}
+svg{
+    width: 39px;
+    height: 20%;
+}
+.portfolio{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    line-height: 190%;
+    align-items: center;
+}
+.icons{
+    display: flex;
+}
+img{
+    border-radius: 100%;
+}
+.milli{
+    display: flex;
+}
